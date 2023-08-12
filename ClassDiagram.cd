@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AbaloneGame.Constants">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="AbaloneGame.Constants.MODE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Constants.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAARAAAACAEAAABAAAAgAAAABAEBAAAQAAAAAIAQAQ=</HashCode>
+      <FileName>Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.Exceptions">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="AbaloneGame.Exceptions.MarblesNotInLineExceptions">
+        <TypeIdentifier>
+          <NewMemberFileName>Exceptions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AbaloneGame.Exceptions.MoreThanThreeSameException">
+        <TypeIdentifier>
+          <NewMemberFileName>Exceptions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AbaloneGame.Exceptions.SuicideException">
+        <TypeIdentifier>
+          <NewMemberFileName>Exceptions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AbaloneGame.Exceptions.TrappedMarbleException">
+        <TypeIdentifier>
+          <NewMemberFileName>Exceptions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AbaloneGame.Exceptions.NotOwnMarbleException">
+        <TypeIdentifier>
+          <NewMemberFileName>Exceptions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AbaloneGame.Exceptions.IllegalMoveException">
+        <TypeIdentifier>
+          <NewMemberFileName>Exceptions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AbaloneGame.Exceptions.CannotPushException">
+        <TypeIdentifier>
+          <NewMemberFileName>Exceptions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.Abalone">
+    <Position X="7.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Abalone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.Model.BitSet">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAhAFAABAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Model\BitSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.Model.Board">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCgGYAIAAIAAAAAAAkQAAAAQAAAAAAIiAAACgBAAAgA=</HashCode>
+      <FileName>Model\Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.Model.Move">
+    <Position X="0.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAgAAAAAAAAgAgAAYEAAAABBCCAGAAgARAAAAAAI=</HashCode>
+      <FileName>Model\Move.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.Model.Player">
+    <Position X="0.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAIAAQAAAAEAACAAEAAgAAAAAA=</HashCode>
+      <FileName>Model\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.Properties.Resources">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAABAAAAABEAAAAQAAAAAAAAAAQAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.AI.AIConstants">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAMAACAAAAAAAACCAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>AI\AIConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.AI.AIManager">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAgAAAACAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>AI\AIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.AI.AIUtils">
+    <Position X="4" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAIAEAQAAFEEICACAAAACAACQAAAAIgBABABgEAE=</HashCode>
+      <FileName>AI\AIUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.Controller.Game">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAwAAEAMgAIIAAAAQAQgEgAAAAACCAKAAAgCAiABA=</HashCode>
+      <FileName>Controller\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.Controller.GameValidations">
+    <Position X="2.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAIAAAIAAAAAAAAAAABAAAEABAgAAAABAAAAAA=</HashCode>
+      <FileName>Controller\GameValidations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.Controller.Turn">
+    <Position X="2.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAIAgAAAKAAIAAAAAAgAAAAAAAgAAIIAABAAAAYQAI=</HashCode>
+      <FileName>Controller\Turn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.View.GameForm">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAACAAACAgABCACAJAAAoAiAAAABAAAA=</HashCode>
+      <FileName>View\GameForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.View.GraphicConstants">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>View\GraphicConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.View.GraphicUtils">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAIAAA=</HashCode>
+      <FileName>View\GraphicUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaloneGame.View.WelcomeForm">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAYAAAAAGAAAABAIAA=</HashCode>
+      <FileName>View\WelcomeForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
